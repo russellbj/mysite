@@ -28,33 +28,17 @@ class Philosophy extends Component {
         </header>
         <body id="MusicBody">
 
-            <div className="flex-container-header">
-                <div className="row paddingBottom">
-                   <div className="col-12" align="center">
-                        <p className="header-title animate-pop-in hit-the-floor">Philosophy</p>
-                        <h4 id="MusicMainText" className="header-subtitle animate-pop-in paddingBottom">
-                        I have been passionate about continental philosophy for years -
-                        my main subjects of interest include existentialism, personal ethics, 
-                        the concept of the 'good life', Confucianism, and general metaphysics. Here you can find 
-                        a collection of papers I have written.
-                        </h4>
-                    </div>
-                </div>
-                </div>
-
             <div className="col-12" align="center">
             <div className="row paddingTop" align="center">
                     <div className="col-12" align="center">
                     <h1 id="iframe-title" className="paddingBottom">Inner Story, Outer Story</h1>
                     <div className="subtitle-box">
                         <h4 id="iframe-body">
-                        In my last semester at Beloit College, I took a class called Inner Story, Outer Story.
-                        It covered social theorists such as Erving Goffman and
-                        George Herbert Mead, and focused on the dichotomy between
-                        the "outer stories" that people present to the world, and the "inner stories"
-                        that we tell ourselves. My final essay (below) was about tech giants like Google and Microsoft. 
-                        I attempted to reconcile the differences between their publicly professed standards and policies, 
-                        and their less humanitarian underlying motives and actions. I also analyze 
+                        In the essay below, is about . 
+                        I attempted to reconcile the differences between the 
+                        publicly professed standards and policies
+                        of tech giants like Google and Microsoft, 
+                        and their underlying motives and actions. I also analyze 
                         the cultural context surrounding the rise of tech-celebrity 
                         icons (Elon Musk, Bill Gates, etc.) through both a Western and Confucian lens. </h4>
                     </div>

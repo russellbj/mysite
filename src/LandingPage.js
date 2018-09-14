@@ -27,28 +27,29 @@ class LandingPage extends Component {
 
 						<div className={this.state.buttonFade}>
     					<div className="flex-container">
-	    					<div>
-	    					
-	     					<button id="LandingPageButton" className="button" type="submit"
+
+	    					<div className="paddingBottom">
+	     					<button id="LandingPageButton" className="button paddingBottom" type="submit"
 	     					onClick={() => this.onMusic()}>Music</button>
 	     					<form action="/music"><button id="GoToMusic"></button></form>	     					      			
 	    					</div>
 
-	    					<div>	    					    					
+
+	    					<div className="paddingBottom">	    					    					
 	     					<button id="LandingPageButton" className="button" type="submit" onClick={() => this.onWebDev()}>Web Design</button>
 	     					<form action="/webdesign"><button id="GoToWebDev"></button></form>
 	    					</div>
 
-	    					<div>	    					
-	     					<button id="LandingPageButton" className="button" type="submit" onClick={() => this.onAppDev()}>Application Development</button>
+	    					<div className="paddingBottom">	    					
+	     					<button id="LandingPageButton" className="button" type="submit" onClick={() => this.onAppDev()}>App Dev</button>
 	     					<form action="/appdev"><button id="GoToAppDev"></button></form>		     			
 	    					</div>
 
-	    					<div>
+	    					<div className="paddingBottom">
 	    					<button id="LandingPageButton" className="button" type="submit" onClick={() => this.onPhilosophy()}>Philosophy</button>
-	    					<form action="/philosophy"><button id="GoToPhil"></button></form>
-	     					      			
+	    					<form action="/philosophy"><button id="GoToPhil" className="paddingBottom"></button></form> 
 	    					</div>
+
 	    				</div>
     					</div>
     					</section>

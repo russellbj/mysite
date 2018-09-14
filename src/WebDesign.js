@@ -32,17 +32,6 @@ render() {
                   <Navbar navAction = {this.navHandler}/>
                 </header>
                 <body id="WebDesignBody">
-                
-                <div className="flex-container-header">
-                <div className="row paddingBottom">
-	               <div className="col-12" align="center">
-		                <p className="header-title animate-pop-in hit-the-floor">Web Design</p>
-	                	<h4 id="MusicMainText" className="header-subtitle animate-pop-in paddingBottom"> I have been fostering my web development skills
-                        recently, gaining experience in modern frameworks like Bootstrap and React.
-                        I have a modest number of projects under my belt, which you can find here. </h4>
-	                </div>
-                </div>
-                </div>
 
                 <div className="row paddingTop" align="center">
                     <div className="col-12" align="center">

@@ -33,16 +33,7 @@ render() {
                 </header>
                 <body id="AppDevBody">
 
-                <div className="flex-container-header">
-                <div className="row paddingBottom">
-                   <div className="col-12" align="center">
-                        <p className="header-title animate-pop-in hit-the-floor">Applications</p>
-                        <h4 id="MusicMainText" className="header-subtitle animate-pop-in paddingBottom">
-                        I have developed a number of applications and games in various environments, mostly using
-                        Unity, Java, and React. You can check them out here.</h4>
-                    </div>
-                </div>
-                </div>
+
 
                 <div className="col-12" align="center">
                 <div className="row paddingTop" align="center">

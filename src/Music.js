@@ -27,16 +27,7 @@ class Music extends Component {
                   <Navbar navAction = {this.navHandler}/>
                 </header>
                 <body id="MusicBody">
-                <div className='flex-container-header'>
 
-                    <main id="MusicMainText">                
-                    	<p className="header-title animate-pop-in hit-the-floor">Music</p>
-                        	<h5 id="MusicMainText" className="insetshadow header-subtitle animate-pop-in music-subtitle">
-                                Music has always played a central role in my life. Here you will find examples of the work I have done involving music and audio engineering. 
-                            </h5>
-                    </main>
-
-                </div>
                 
                <div className="container-fluid">
                 <div className="row">
