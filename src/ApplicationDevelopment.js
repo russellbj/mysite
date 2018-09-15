@@ -5,7 +5,7 @@ import {CardImage} from 'mdbreact';
 import demo_oed from './images/demo_oed_small.jpg';
 import robofriends from './images/robofriends_small.jpg'
 import smart_brain from './images/smart_brain_small.jpg'
-import zombies from './images/zombies_small.PNG'
+import zombies from './images/zombies_small.jpg'
 import FooterBar from './FooterBar.js'
 
 class ApplicationDevelopment extends Component {
