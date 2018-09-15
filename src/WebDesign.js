@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar.js';
 import './Style.css';
-import VacaWoodworks from './images/VacaWoodworks_small.jpg';
+import VacaWoodworks from './images/VacaWoodwork_smalls.jpg';
 import DunnsMarsh from './images/DunnsMarsh_small.jpg';
 import OED from './images/OED.jpg';
 import JesseSite from './images/JesseSite_small.jpg'
