@@ -34,11 +34,7 @@ class Philosophy extends Component {
                     <h1 id="iframe-title" className="paddingBottom">Inner Story, Outer Story</h1>
                     <div className="subtitle-box">
                         <h4 id="iframe-body">
-                        In the essay below, is about . 
-                        I attempted to reconcile the differences between the 
-                        publicly professed standards and policies
-                        of tech giants like Google and Microsoft, 
-                        and their underlying motives and actions. I also analyze 
+                        In the essay below, I explore
                         the cultural context surrounding the rise of tech-celebrity 
                         icons (Elon Musk, Bill Gates, etc.) through both a Western and Confucian lens. </h4>
                     </div>
@@ -88,11 +84,8 @@ class Philosophy extends Component {
                     <h1 id="iframe-title" className="paddingBottom">Parmenides vs. Aristotle</h1>
                     <div className="subtitle-box">
                         <h4 id="iframe-body">
-                        One of the most prominent Pre-Socratic philosophers was a man named Parmenides.
-                        He posited that plurality and change were illusions, and that the true nature of
-                        reality was static, singular, and unchanging. When Aristotle wrote the <i>Physics</i>,
-                        he grappled with this notion. In this essay, I outline how Aristotle was able to overcome
-                        the Parmenidean problem.
+                        In this essay, I outline how Aristotle overcame
+                        Parmenidean ontology.
                         </h4>
                     </div>
                     </div>

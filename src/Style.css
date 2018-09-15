@@ -40,7 +40,7 @@ html {
 }
 
 #WebDesignBody {
-    background: linear-gradient(#66CCCC, white, white, white, white);
+    background: linear-gradient(#66CCCC, white, white, white);
     font-family: sans-serif;
     padding: 50px;
     z-index: 10;
@@ -55,6 +55,8 @@ iframe{
   justify-content: center;
   align-content: center;
 }
+
+
 
 #MusicBody:active{
   transition: background-position 0.1s;
@@ -166,7 +168,15 @@ iframe{
   animation-delay: .8s;
 }
 
+.item-title {
+  animation-delay: .8s;
+}
+
  .header-subtitle {
+  animation-delay: 1s;
+}
+
+.item-subtitle {
   animation-delay: 1s;
 }
 
@@ -198,7 +208,7 @@ iframe{
   justify-content: center;
   text-align: center;
   margin-bottom: 2vw;
-  margin-top: 1vw;
+  margin-top: 2vw;
 }
 }
 @media screen and (max-width: 649px)
@@ -208,7 +218,7 @@ iframe{
   justify-content: left;
   text-align: left;
   margin-bottom: 2vw;
-  margin-top: 1vw;
+  margin-top: 5vw;
   color: blue;
 }
 }
@@ -593,8 +603,10 @@ h4{
 }
 
 .paddingBottom {
-  padding-bottom: 100px;
+  padding-bottom: 5vh;
 }
+
+
 
 .view{
     box-shadow: 0 0 0 0 black;

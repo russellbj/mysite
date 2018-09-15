@@ -35,7 +35,7 @@ class Music extends Component {
                     <h1 id="iframe-title">Production</h1>
                     <iframe className="flex-item-center" title="soundcloud" width="0%" height="0" scrolling="yes" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/16155674&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
                     <div className="subtitle-box">
-                        <h4 id="iframe-body"> I am an avid hip-hop and electronic music fan, and have been interested in mixing/mastering for years.
+                        <h4 id="iframe-body">
                         Many of my friends are musicians, and I frequently help them balance and EQ their mixes after recording. 
                         I also have a soundcloud where I post many of the beats and instrumentals I have made.</h4>
                     </div>
