@@ -265,6 +265,7 @@ h1 {
 }
 
   #iframe-body {
+    width: 50vw;
     font-size: 20px;
     font-family: 'Karla', sans-serif;
     color: #6b6b6b;
@@ -553,7 +554,7 @@ h1:after {
   margin-left: 5px;
   margin-right: 5px;
   color: black;
-  margin-bottom: 5vw;
+
 }
 /*
   This is where we define the fill, color, thickness,

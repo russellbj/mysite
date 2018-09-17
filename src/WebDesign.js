@@ -37,7 +37,7 @@ render() {
                 <div className="container-fluid">
                 <div className="row paddingTop" align="center">
                     <div className="col-12" align="center">
-                    <h1 id="iframe-title" className="paddingBottom">Vaca Woodworks</h1>
+                    <h1 id="iframe-title" className="paddingBottom paddingTop">Vaca Woodworks</h1>
                     </div>
                 </div>
 
@@ -54,8 +54,8 @@ render() {
                 <div className="row" align="center">
                     <div className="col-12">
                     <div className="subtitle-box">
-                        <h4 id="iframe-body"> Website made to advertise my friend's woodworking business.
-                        Built with MDBootstrap.</h4>
+                        <h4 id="iframe-body"> <i> Built with MDBootstrap. </i> Website made to advertise my friend's woodworking business.
+                        </h4>
                     </div>
 
                     <div className="svg-wrapper">
@@ -72,7 +72,7 @@ render() {
 
                 <div className="row paddingTop" align="center">
                     <div className="col-12" align="center">
-                    <h1 id="iframe-title" className="paddingBottom">Dunn's Marsh</h1>
+                    <h1 id="iframe-title" className="paddingBottom paddingTop">Dunn's Marsh</h1>
                     </div>
                 </div>
 
@@ -89,8 +89,8 @@ render() {
                 <div className="row" align="center">
                     <div className="col-12">
                     <div className="subtitle-box">
-                        <h4 id="iframe-body"> I assisted a small team in designing and developing a website for the
-                        Dunn's Marsh Neighborhood Association. Built with Wordpress. </h4>
+                        <h4 id="iframe-body"> <i> Built with Wordpress. </i> I assisted a small team in designing and developing a website for the
+                        Dunn's Marsh Neighborhood Association. </h4>
                     </div>
 
                     <div className="svg-wrapper">
@@ -107,7 +107,7 @@ render() {
 
                 <div className="row paddingTop" align="center">
                     <div className="col-12" align="center">
-                    <h1 id="iframe-title" className="paddingBottom">Open Energy Dashboard</h1>
+                    <h1 id="iframe-title" className="paddingBottom paddingTop">Open Energy Dashboard</h1>
                     </div>
                 </div>
 
@@ -142,7 +142,7 @@ render() {
 
                 <div className="row paddingTop" align="center">
                     <div className="col-12" align="center">
-                    <h1 id="iframe-title" className="paddingBottom">Jesse Wiles Photography</h1>
+                    <h1 id="iframe-title" className="paddingBottom paddingTop">Jesse Wiles Photography</h1>
                     </div>
                 </div>
 
@@ -158,7 +158,7 @@ render() {
                 <div className="row" align="center">
                     <div className="col-12">
                     <div className="subtitle-box">
-                        <h4 id="iframe-body"> Currently building a portfolio site to host
+                        <h4 id="iframe-body"> <i> Built with Materialize CSS. </i> Currently building a portfolio site to host
                         my friend's photography. Still in progress, but you may download and run the project
                         from the github repository.</h4>
                     </div>

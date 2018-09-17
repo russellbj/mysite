@@ -30,9 +30,9 @@ class Music extends Component {
 
                 
                <div className="container-fluid">
-                <div className="row">
+                <div className="row paddingTop">
                 <div className="col-12" align="center">
-                    <h1 id="iframe-title">Production</h1>
+                    <h1 id="iframe-title" className="paddingTop">Production</h1>
                     <iframe className="flex-item-center" title="soundcloud" width="0%" height="0" scrolling="yes" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/16155674&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
                     <div className="subtitle-box">
                         <h4 id="iframe-body">
@@ -48,7 +48,7 @@ class Music extends Component {
                         </div>
                     </div>
 
-                    <h1 id="iframe-title">Camp Createability</h1>
+                    <h1 id="iframe-title" className="paddingTop">Camp Createability</h1>
                     <iframe className="flex-item-center" title="youtube" src="https://www.youtube.com/embed/q39CssKPuGY" frameBorder="no" allow="autoplay; encrypted-media"></iframe> 
                     <div className="subtitle-box">
                         <h4 id="iframe-body"> In 2017, I volunteered at a summer camp for children with autism. We would assist the

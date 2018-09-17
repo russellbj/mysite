@@ -52,7 +52,7 @@ render() {
                 <div className="row" align="center">
                     <div className="col-12">
                     <div className="subtitle-box">
-                        <h4 id="iframe-body"> Contributed to a free and open source energy monitoring 
+                        <h4 id="iframe-body"> <i> Built with D3.js and Postgres. </i> Contributed to a free and open source energy monitoring 
                         dashboard developed by my Database Capstone class. The goal was to create an 
                         intuitive and dynamic interface for monitoring energy usage on campus. 
                         The team is currently pursuing collaborations with other institutions. 
@@ -75,7 +75,7 @@ render() {
 
                 <div className="row paddingTop" align="center">
                     <div className="col-12" align="center">
-                    <h1 id="iframe-title" className="paddingBottom">Robofriends</h1>
+                    <h1 id="iframe-title" className="paddingBottom paddingTop">Robofriends</h1>
                     </div>
                 </div>
 
@@ -92,13 +92,11 @@ render() {
                 <div className="row" align="center">
                     <div className="col-12">
                     <div className="subtitle-box">
-                        <h4 id="iframe-body"> Following an online Udemy course, I wrote
+                        <h4 id="iframe-body"> <i> Built with React, Redux, and RoboHash (<a> https://robohash.org/ </a>) 
+                        </i>. Following a Udemy tutorial, I wrote
                         a small app that takes in JSON data and uses it to generate a card-based
-                        list of users, each of whom have a procedurally-generated robot image
-                        associated with them (based on hash of user info). Since starting the course,
-                        I have used the app to practice and learn more about TypeScript, Progressive
-                        Web App functionality, and Jest unit tests. Built with React, Redux, and RoboHash (<a> https://robohash.org/ </a>) 
-                        </h4>
+                        list of users. I have since used the app as a sandbox to practice and learn more about TypeScript, Progressive
+                        Web App functionality, and Jest unit tests. </h4>
                     </div>
 
                     <div className="svg-wrapper">
@@ -115,7 +113,7 @@ render() {
                 
                 <div className="row paddingTop" align="center">
                     <div className="col-12" align="center">
-                    <h1 id="iframe-title" className="paddingBottom">SmartBrain</h1>
+                    <h1 id="iframe-title" className="paddingBottom paddingTop">SmartBrain</h1>
                     </div>
                 </div>
 
@@ -128,12 +126,12 @@ render() {
                 <div className="row" align="center">
                     <div className="col-12">
                     <div className="subtitle-box">
-                        <h4 id="iframe-body"> Following the same Udemy course, I worked on
-                        an application that detects faces in images, and draws a box around each face
+                        <h4 id="iframe-body"> 
+                        <i> Built with React, Redux, Postgres, and 
+                        Clairifi (<a>https://clarifai.com/</a>). Currently working on implementing Docker containerization. </i>
+                        I worked on an application that detects faces in images, and draws a box around each face
                         it detects. The app also uses a Postgres database to store a hashed table of user login
-                        information. Currently working on using Docker containerization to 
-                        optimize the build process. Built with React, Redux, Postgres, Docker, and 
-                        Clairifi (<a>https://clarifai.com/</a>)
+                        information. Built with help from the same React+Redux Udemy course as is listed above.
                         </h4>
                     </div>
 
@@ -159,7 +157,7 @@ render() {
 
                 <div className="row paddingTop" align="center">
                     <div className="col-12" align="center">
-                    <h1 id="iframe-title" className="paddingBottom">Games</h1>
+                    <h1 id="iframe-title" className="paddingBottom paddingTop">Games</h1>
                     </div>
                 </div>
 
