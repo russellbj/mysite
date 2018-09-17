@@ -31,11 +31,8 @@ render() {
                 <header>
                   <Navbar navAction = {this.navHandler}/>
                 </header>
-                <body id="AppDevBody">
-
-
-
-                <div className="col-12" align="center">
+                <body id="MusicBody">
+                 <div className="container-fluid">
                 <div className="row paddingTop" align="center">
                     <div className="col-12" align="center">
                     <h1 id="iframe-title" className="paddingBottom">Open Energy Dashboard</h1>
@@ -43,15 +40,13 @@ render() {
                 </div>
 
                 <div className="row" align="center">
-                <div className="col-3">
-                </div>
-                    <div className="col-6" align="center">
+              
+                
                     <a href="http://oed.beloit.edu:3020/">
                     <CardImage src={demo_oed} className="card-img-top" align="center" waves/>
                     </a>
-                    </div>
-                    <div className="col-3">
-                </div>
+                   
+              
                 </div>
 
                 <div className="row" align="center">
@@ -85,15 +80,13 @@ render() {
                 </div>
 
                 <div className="row" align="center">
-                <div className="col-3">
-                </div>
-                    <div className="col-6" align="center">
+                
+                   
                     <a href="https://russellbj.github.io/RoboFriendsPWA/">
                     <CardImage src={robofriends} className="card-img-top" align="center" waves/>
                     </a>
-                    </div>
-                    <div className="col-3">
-                </div>
+                    
+              
                 </div>
 
                 <div className="row" align="center">
@@ -127,13 +120,9 @@ render() {
                 </div>
 
                 <div className="row" align="center">
-                <div className="col-3">
-                </div>
-                    <div className="col-6" align="center">
+           
                     <CardImage src={smart_brain} className="card-img-top" align="center" waves/>
-                    </div>
-                    <div className="col-3">
-                </div>
+ 
                 </div>
 
                 <div className="row" align="center">
@@ -175,15 +164,11 @@ render() {
                 </div>
 
                 <div className="row" align="center">
-                <div className="col-3">
-                </div>
-                    <div className="col-6" align="center">
+               
                     <a href="https://github.com/russellbj">
                     <CardImage src={zombies} className="card-img-top" align="center" waves/>
                     </a>
-                    </div>
-                    <div className="col-3">
-                </div>
+                    
                 </div>
 
                 <div className="row" align="center">
@@ -207,7 +192,7 @@ render() {
                     
                     </div>
                     </div>
-                </div>
+         </div>
 
                 </body>
                 <FooterBar />

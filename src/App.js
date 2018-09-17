@@ -18,9 +18,8 @@ class App extends Component {
             <Route exact path='/music' component={Music} />
             <Route exact path='/philosophy' component={Philosophy} />
             <Route exact path='/webdesign' component={WebDesign} />
-            <Route exact path='/appdev' component={ApplicationDevelopment} />  
+            <Route exact path='/appdev' component={ApplicationDevelopment} /> 
 
-            
            </div>
     </Switch>
       </BrowserRouter>

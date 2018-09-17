@@ -31,10 +31,10 @@ render() {
                 <header>
                   <Navbar navAction = {this.navHandler}/>
                 </header>
-                <body id="WebDesignBody">
+                <body id="MusicBody">
                 
               
-
+                <div className="container-fluid">
                 <div className="row paddingTop" align="center">
                     <div className="col-12" align="center">
                     <h1 id="iframe-title" className="paddingBottom">Vaca Woodworks</h1>
@@ -42,15 +42,13 @@ render() {
                 </div>
 
                 <div className="row" align="center">
-                <div className="col-3">
-                </div>
-                    <div className="col-6" align="center">
+                
+                    
                     <a href="https://www.vacawoodworks.com/">
                     <CardImage src={VacaWoodworks} className="card-img-top" align="center" waves/>
                     </a>
-                    </div>
-                    <div className="col-3">
-                </div>
+                  
+                    
                 </div>
 
                 <div className="row" align="center">
@@ -79,15 +77,13 @@ render() {
                 </div>
 
                 <div className="row" align="center">
-                <div className="col-3">
-                </div>
-                    <div className="col-6" align="center">
+               
+                   
                     <a href="http://dunnsmarsh.org/">
                     <CardImage src={DunnsMarsh} className="card-img-top" align="center" waves/>
                     </a>
-                    </div>
-                    <div className="col-3">
-                </div>
+                   
+                   
                 </div>
 
                 <div className="row" align="center">
@@ -116,15 +112,13 @@ render() {
                 </div>
 
                 <div className="row" align="center">
-                <div className="col-3">
-                </div>
-                    <div className="col-6" align="center">
+                
+                    
                     <a href="https://openenergydashboard.github.io/">
                     <CardImage src={OED} className="card-img-top" align="center" waves/>
                     </a>
-                    </div>
-                    <div className="col-3">
-                </div>
+                   
+                    
                 </div>
 
                 <div className="row" align="center">
@@ -153,15 +147,12 @@ render() {
                 </div>
 
                 <div className="row" align="center">
-                <div className="col-3">
-                </div>
-                    <div className="col-6" align="center">
+                
+                    
                     <a href="https://github.com/russellbj/JesseWilesSite/">
                     <CardImage src={JesseSite} className="card-img-top" align="center" waves/>
                     </a>
-                    </div>
-                    <div className="col-3">
-                </div>
+              
                 </div>
 
                 <div className="row" align="center">
@@ -182,7 +173,7 @@ render() {
                     </div>
                     </div>                  
                 </div>
-
+                </div>
                 </body>
                 <FooterBar />
         </div>
