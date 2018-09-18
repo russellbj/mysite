@@ -27,7 +27,6 @@ class WebDesign extends Component {
 render() {
     return (
         <html className={this.state.pageTransition}>
-        <div>
                 <header>
                   <Navbar navAction = {this.navHandler}/>
                 </header>
@@ -53,7 +52,7 @@ render() {
 
                 <div className="row" align="center">
                     <div className="col-12">
-                    <div className="subtitle-box">
+                    <div>
                         <h4 id="iframe-body"> <i> Built with MDBootstrap. </i> Website made to advertise my friend's woodworking business.
                         </h4>
                     </div>
@@ -88,7 +87,7 @@ render() {
 
                 <div className="row" align="center">
                     <div className="col-12">
-                    <div className="subtitle-box">
+                    <div>
                         <h4 id="iframe-body"> <i> Built with Wordpress. </i> I assisted a small team in designing and developing a website for the
                         Dunn's Marsh Neighborhood Association. </h4>
                     </div>
@@ -123,7 +122,7 @@ render() {
 
                 <div className="row" align="center">
                     <div className="col-12">
-                    <div className="subtitle-box">
+                    <div>
                         <h4 id="iframe-body"> Worked with a team in my Database Capstone class to create a website
                         for our Open Energy Dashboard project. You can find more information about the
                         project in the Application Development tab. </h4>
@@ -157,7 +156,7 @@ render() {
 
                 <div className="row" align="center">
                     <div className="col-12">
-                    <div className="subtitle-box">
+                    <div>
                         <h4 id="iframe-body"> <i> Built with Materialize CSS. </i> Currently building a portfolio site to host
                         my friend's photography. Still in progress, but you may download and run the project
                         from the github repository.</h4>
@@ -176,7 +175,6 @@ render() {
                 </div>
                 </body>
                 <FooterBar />
-        </div>
         </html>
         )
 }

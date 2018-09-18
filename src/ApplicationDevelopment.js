@@ -51,7 +51,7 @@ render() {
 
                 <div className="row" align="center">
                     <div className="col-12">
-                    <div className="subtitle-box">
+                    <div>
                         <h4 id="iframe-body"> <i> Built with D3.js and Postgres. </i> Contributed to a free and open source energy monitoring 
                         dashboard developed by my Database Capstone class. The goal was to create an 
                         intuitive and dynamic interface for monitoring energy usage on campus. 
@@ -91,7 +91,7 @@ render() {
 
                 <div className="row" align="center">
                     <div className="col-12">
-                    <div className="subtitle-box">
+                    <div>
                         <h4 id="iframe-body"> <i> Built with React, Redux, and RoboHash (<a> https://robohash.org/ </a>) 
                         </i>. Following a Udemy tutorial, I wrote
                         a small app that takes in JSON data and uses it to generate a card-based
@@ -125,7 +125,7 @@ render() {
 
                 <div className="row" align="center">
                     <div className="col-12">
-                    <div className="subtitle-box">
+                    <div>
                         <h4 id="iframe-body"> 
                         <i> Built with React, Redux, Postgres, and 
                         Clairifi (<a>https://clarifai.com/</a>). Currently working on implementing Docker containerization. </i>
@@ -171,7 +171,7 @@ render() {
 
                 <div className="row" align="center">
                     <div className="col-12">
-                    <div className="subtitle-box">
+                    <div>
                         <h4 id="iframe-body"> I am developing a number of games in Unity,
                         including a top-down shooter, a side-scroller, and an isometric 3D RPG.
                         Though they are still in development, you can check out the code 

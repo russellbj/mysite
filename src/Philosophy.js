@@ -38,7 +38,7 @@ class Philosophy extends Component {
             <div className="row" align="center">
                     <div className="col-12" align="center">
                     <h1 id="iframe-title" className="paddingBottom paddingTop">Inner Story, Outer Story</h1>
-                    <div className="subtitle-box">
+                    <div>
                         <h4 id="iframe-body">
                         In the essay below, I explore
                         the cultural context surrounding the rise of tech-celebrity 
@@ -67,7 +67,7 @@ class Philosophy extends Component {
             <div className="row paddingTop" align="center">
                     <div className="col-12" align="center">
                     <h1 id="iframe-title" className="paddingBottom paddingTop">Camus, Suicide, and the Absurd</h1>
-                    <div className="subtitle-box">
+                    <div>
                         <h4 id="iframe-body">
                         I greatly appreciate any philosopher that attempts to combat the
                         tide of nihilism. This is why for my philosophy colloquium class I wrote
@@ -98,7 +98,7 @@ class Philosophy extends Component {
             <div className="row paddingTop" align="center">
                     <div className="col-12" align="center">
                     <h1 id="iframe-title" className="paddingBottom paddingTop">Parmenides vs. Aristotle</h1>
-                    <div className="subtitle-box">
+                    <div>
                         <h4 id="iframe-body">
                         In this essay, I outline how Aristotle overcame
                         Parmenidean ontology.
