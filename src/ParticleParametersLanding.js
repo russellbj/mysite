@@ -8,7 +8,7 @@ particles: {
 	},
 
 	line_linked: {
-		enable: false
+		enable: true
 	},
 
 	opacity: {
@@ -20,7 +20,7 @@ particles: {
 	},
 
 	number: {
-		value: 250,
+		value: 100,
 		density: {
 			enable: true,
 			value_area: 1000
@@ -37,13 +37,13 @@ canvas: {
 "interactivity": {
 	"modes": {
         "bubble": {
-	        "distance":200,
-	        "size": 3,
+	        "distance":400,
+	        "size": 5,
 	        "opacity": 10,
 	        "color": "red"
        	},
        	"repulse": {
-       		"distance": 300
+       		"distance": 200
        	},
        	"grab":{
        		"distance": 300
@@ -53,11 +53,11 @@ canvas: {
     "events": {
       "onhover": {
         "enable": true,
-        "mode": "bubble", 
+        "mode": "repulse", 
 	    },
 	  "onclick": {
-	  	"enable": true,
-	  	"mode": "repulse",
+	  	"enable": false,
+	  	"mode": "bubble",
 	  }
   }}}
 

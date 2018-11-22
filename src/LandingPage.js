@@ -21,7 +21,6 @@ class LandingPage extends Component {
   		<div>
   		<header id="LandingPage" className={this.state.pageTransition}>	
   			<section>
-     				<h4 className={this.state.subtitleFade}>(Click The Screen)</h4>
     				<h1 className={this.state.titleFade}>Ben Russell</h1>
     				<hr className={this.state.lineFade}/>
 
