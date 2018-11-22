@@ -39,7 +39,7 @@ html {
 }
 
 #MusicBody{
-    background: linear-gradient(#66CCCC, white, white, white);
+    background: #E9E9E9;
     font-family: sans-serif;
     padding: 50px;
     z-index: 10;
@@ -208,7 +208,7 @@ iframe{
     width: 70vw;
     font-size: 20px;
     font-family: 'Karla', sans-serif;
-    color: #6b6b6b;
+    color: black;
     justify-content: center;
     text-align: center;
     margin-top: 3vw;
