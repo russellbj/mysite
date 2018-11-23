@@ -148,7 +148,7 @@ render() {
                 <div className="row" align="center">
                 
                     
-                    <a href="https://github.com/russellbj/JesseWilesSite/">
+                    <a href="https://russellbj.github.io/JesseWilesSite/">
                     <CardImage src={JesseSite} className="card-img-top" align="center" waves/>
                     </a>
               
@@ -158,8 +158,7 @@ render() {
                     <div className="col-12">
                     <div>
                         <h4 id="iframe-body"> <i> Built with Materialize CSS. </i> Currently building a portfolio site to host
-                        my friend's photography. Still in progress, but you may download and run the project
-                        from the github repository.</h4>
+                        my friend's photography. Still in progress, but you can check out the GitHub Pages link.</h4>
                     </div>
 
                     <div className="svg-wrapper">
