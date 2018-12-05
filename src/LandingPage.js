@@ -1,6 +1,4 @@
 import React, {Component} from 'react';
-import ParticleParametersLanding from './ParticleParametersLanding.js';
-import Particles from 'react-particles-js';
 import "./Style.css"
 
 class LandingPage extends Component {
@@ -52,11 +50,7 @@ class LandingPage extends Component {
 	    				</div>
     					</div>
     					</section>
-    				<body>
-	    				<div id="particles">
-	     					<Particles id="particles" params={ParticleParametersLanding}/>
-	     				</div>
-    				</body>
+
     				</header>
   				</div>
 
