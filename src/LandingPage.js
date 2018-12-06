@@ -19,7 +19,7 @@ class LandingPage extends Component {
   		<div>
   		<header id="LandingPage" className={this.state.pageTransition}>	
   			<section>
-    				<h1 className={this.state.titleFade}>Ben Russell</h1>
+    				<h2 className={this.state.titleFade}>Ben Russell</h2>
     				<hr className={this.state.lineFade}/>
 
 						<div className={this.state.buttonFade}>
