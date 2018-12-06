@@ -7,6 +7,7 @@ import OED from './images/OED.jpg';
 import JesseSite from './images/JesseSite_small.jpg'
 import {CardImage} from 'mdbreact';
 import FooterBar from './FooterBar.js'
+import WeeklyPhil from './images/Phil.jpg'
 
 class WebDesign extends Component {
 
@@ -32,7 +33,42 @@ render() {
                 </header>
                 <body id="MusicBody">
                 
-              
+              	<div className="row paddingTop" align="center">
+                    <div className="col-12" align="center">
+                    <h1 id="iframe-title" className="paddingBottom paddingTop">Weekly Philosophy</h1>
+                    </div>
+                </div>
+
+                <div className="row" align="center">
+                
+                    
+                    <a href="https://www.weeklyphil.com/">
+                    <CardImage src={WeeklyPhil} className="card-img-top" align="center" waves/>
+                    </a>
+                  
+                    
+                </div>
+
+                <div className="row" align="center">
+                    <div className="col-12">
+                    <div>
+                        <h4 id="iframe-body"> <i> Built with WordPress. </i> A blog wherein I 
+                        post weekly philosophical essays and rants about topics that I am interested in.
+                        </h4>
+                    </div>
+
+                    <div className="svg-wrapper">
+                        <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+                        <rect id="shape" height="40" width="150"></rect>
+                        </svg>
+                        <div id="btn-text">
+                          <a href="https://www.weeklyphil.com/"><span className="spot"></span>Visit Site</a>
+                        </div>
+                    </div>
+                    </div>
+
+                </div>
+
                 <div className="container-fluid">
                 <div className="row paddingTop" align="center">
                     <div className="col-12" align="center">
@@ -88,7 +124,7 @@ render() {
                 <div className="row" align="center">
                     <div className="col-12">
                     <div>
-                        <h4 id="iframe-body"> <i> Built with Wordpress. </i> I assisted a small team in designing and developing a website for the
+                        <h4 id="iframe-body"> <i> Built with WordPress. </i> I assisted a small team in designing and developing a website for the
                         Dunn's Marsh Neighborhood Association. </h4>
                     </div>
 

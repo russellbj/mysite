@@ -17,7 +17,6 @@ class NavbarComponent extends Component {
         this.onMusic = this.onMusic.bind(this);
         this.onWebDev = this.onWebDev.bind(this);
         this.onAppDev = this.onAppDev.bind(this);
-        this.onPhil = this.onPhil.bind(this);
         this.onClick = this.onClick.bind(this);
         this.toggle = this.toggle.bind(this);
     }
@@ -67,14 +66,6 @@ class NavbarComponent extends Component {
                 document.getElementById('GoToAppDev').click();
             }, 1000);
         }
-    onPhil()
-        {
-            this.props.navAction();
-
-            window.setTimeout(() => {
-                document.getElementById('GoToPhil').click();
-            }, 1000);
-        }
 
     render() {
         return (
@@ -97,8 +88,6 @@ class NavbarComponent extends Component {
                             <form action="/webdesign"><button id="GoToWebDev"></button></form>
                           <a id="button" className="navButton" onClick={this.onAppDev}>App Dev</a>
                             <form action="/appdev"><button id="GoToAppDev"></button></form>
-                          <a id="button" className="navButton" onClick={this.onPhil}>Philosophy</a>
-                            <form action="/philosophy"><button id="GoToPhil"></button></form>
                         </NavbarNav>
 
                     </Collapse>

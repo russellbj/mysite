@@ -23,7 +23,6 @@ html {
   text-align: center;
   transform-style: preserve-3d;
   perspective: 100px;
-  /*background: linear-gradient(to right, rgb(203,52,181), rgb(68,166,187));*/
   background: black;
   transition: background 0.5s ease;
 }

@@ -42,11 +42,6 @@ class LandingPage extends Component {
 	     					<form action="/appdev"><button id="GoToAppDev"></button></form>		     			
 	    					</div>
 
-	    					<div>
-	    					<button id="LandingPageButton" className="button" type="submit" onClick={() => this.onPhilosophy()}>Philosophy</button>
-	    					<form action="/philosophy"><button id="GoToPhil"></button></form> 
-	    					</div>
-
 	    				</div>
     					</div>
     					</section>
@@ -95,16 +90,6 @@ class LandingPage extends Component {
 
 			window.setTimeout(() => {
 				document.getElementById('GoToAppDev').click();
-			}, 2000);
-	}
-
-		onPhilosophy = () =>
-		{
-
-		this.fadeOut();
-
-			window.setTimeout(() => {
-				document.getElementById('GoToPhil').click();
 			}, 2000);
 	}
 }
